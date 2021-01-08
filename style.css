@@ -1,0 +1,35 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    transition: background-color 500ms;
+}
+
+table {
+    border-collapse: collapse;
+    width: 50%;
+}
+
+table,
+th,
+td {
+    border: 1px solid white;
+    text-align: center;
+    transition: border-color 1000ms;
+}
+
+tr {
+    opacity: 0%;
+    transition: opacity 500ms, background-color 500ms;
+}
+
+th {
+    background-color: papayawhip;
+    width: 100px;
+}
+
+.botonera {
+    margin-top: 25px;
+}
