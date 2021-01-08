@@ -25,8 +25,6 @@ function dibujar() {
                 tableCell[i].style.border = "1px solid gray";
             }
 
-            console.log(i);
-            console.log(table.length);
             clearInterval(recorrido);
         }
 

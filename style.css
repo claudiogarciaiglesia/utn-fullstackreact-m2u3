@@ -4,7 +4,7 @@ body {
     justify-content: center;
     align-items: center;
 
-    transition: background-color 500ms;
+    transition: background-color 1000ms;
 }
 
 table {
@@ -22,7 +22,7 @@ td {
 
 tr {
     opacity: 0%;
-    transition: opacity 500ms, background-color 500ms;
+    transition: opacity 500ms, background-color 800ms, color 200ms;
 }
 
 th {
